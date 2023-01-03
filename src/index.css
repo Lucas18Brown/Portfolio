@@ -1,5 +1,5 @@
 body {
-  background-color: #185ADB;
+  background-color: #0A1931;
   font-family: 'Raleway', sans-serif;
   color: #EFEFEF;
 }
@@ -73,14 +73,15 @@ h1, p {
 }
 
 .border {
-  border-right: 2px solid #F3C623;
+  border-right: 5px solid #F3C623;
   height: 600px;
+  border-radius: 5px;
 }
 
 .navbar {
   position: sticky;
   top: 0;
-  background-color: #1859dbac;
+  background-color: #0a1931bc;
   backdrop-filter: blur(2px);
 }
 
