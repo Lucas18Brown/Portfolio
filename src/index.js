@@ -14,10 +14,8 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 
 root.render(
   <div className='container'>
-    <div className='inner-container'>
-      <Navbar/>
-      <Welcome/>
-    </div>
+    <Navbar/>
+    <Welcome/>
     <Footer/>
   </div>
 );
