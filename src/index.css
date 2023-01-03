@@ -4,27 +4,27 @@ body {
   color: #EFEFEF;
 }
 
-#name {
-  font-size: 150px;
+h1, p {
+  text-shadow: 1px 1px 8px rgba(71, 70, 70, 0.207);
 }
 
 #info {
-  text-align: justify;
-  max-width: 500px;
-  font-size: 24px;
+  text-align: left;
+  font-size: 32px;
+  margin-bottom: 100px;
+  font-weight: 300;
 }
 
 .profile-name, h1 {
-  font-size: 80px;
   margin: 0;
+  margin-right: 90px;
+  font-size: 150px;
+  font-weight: 700;
+  text-align: right;
 }
 
 .container {
   margin: auto 140px;
-  display: flex;
-  height: 98vh;
-  align-items: center;
-  position: relative;
 }
 
 .welcome {
@@ -32,10 +32,12 @@ body {
 }
 
 .welcome-container {
-  display: flex;
-  justify-content: space-between;
+  display: grid;
+  justify-content: center;
   align-items: center;
   width: 100%;
+  height: 88vh;
+  grid-template-columns: 1fr 0fr 1fr;
 }
 
 .footer {
@@ -71,25 +73,25 @@ body {
 }
 
 .border {
-  border-left: 2px solid #F3C623;
-  position: absolute;
-  left: 50%;
-  top: 15%;
-  height: 75%;
+  border-right: 5px solid #F3C623;
+  height: 600px;
+  border-radius: 5px;
 }
 
 .navbar {
-  position: absolute;
-  /* position: sticky; */
+  position: sticky;
   top: 0;
-  left: 24%;
+  background-color: #0a1931bc;
+  backdrop-filter: blur(2px);
 }
 
 ul {
   list-style-type: none;
   display: flex;
+  justify-content: center;
+  padding: 20px 0 20px 0;
 }
 
 li {
-  margin-left: 100px;
+  padding: 0 60px 0 60px;
 }

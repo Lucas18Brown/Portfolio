@@ -13,12 +13,9 @@ import Welcome from './welcome.js';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
 root.render(
-  <div className='main-container'>
-    <div className='container'>
-      <Navbar/>
-      <Welcome/>
-      <div className='border'></div>
-    </div>
+  <div className='container'>
+    <Navbar/>
+    <Welcome/>
     <Footer/>
   </div>
 );

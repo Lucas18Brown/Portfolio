@@ -4,10 +4,12 @@ function Welcome(props) {
   return (
       <div className='welcome-container'>
         <div className='Profile-name'>
-          <h1 id='name'>Lucas <br></br> Brown</h1>
+          <p style={{ fontWeight: '300', textAlign: 'right', marginRight: '90px'}}>Hey! Im,</p>
+          <h1>Lucas <br></br> Brown</h1>
         </div>
-        <div style={{textAlign: 'center'}}>
-          <p id='info'>A Full Stack Web Developer looking to create and design experiences that simplify peoples' lives.</p>
+        <div className='border'></div>
+        <div style={{textAlign: 'left', fontWeight: '300', marginLeft: '90px'}}>
+          <p id='info'>A <span style={{ fontWeight: '500', color: '#FFC947'}}> Full Stack Web Developer </span> looking to create and design experiences that simplify peoples' lives.</p>
           <TypeAnimation
             sequence={[
               'Rails',
@@ -36,7 +38,7 @@ function Welcome(props) {
             deletionSpeed={1}
             wrapper="TypeAnimation"
             cursor={true}
-            style={{ fontSize: '80px'}}
+            style={{ fontSize: '32px', color: '#FFC947', fontWeight: '500'}}
           />
         </div>
       </div>
