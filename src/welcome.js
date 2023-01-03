@@ -4,14 +4,15 @@ function Welcome(props) {
   return (
       <div className='welcome-container'>
         <div className='Profile-name'>
-          <p style={{ fontWeight: '300', textAlign: 'right', marginRight: '90px'}}>Hey! Im,</p>
+          <p style={{ fontWeight: '300', textAlign: 'left', marginRight: '90px', fontSize: '15px'}}>Hey! Im,</p>
           <h1>Lucas <br></br> Brown</h1>
         </div>
         <div className='border'></div>
-        <div style={{textAlign: 'left', fontWeight: '300', marginLeft: '90px'}}>
+        <div style={{textAlign: 'center', fontWeight: '300', marginLeft: '90px'}}>
           <p id='info'>A <span style={{ fontWeight: '500', color: '#FFC947'}}> Full Stack Web Developer </span> looking to create and design experiences that simplify peoples' lives.</p>
           <TypeAnimation
             sequence={[
+              1000,
               'Rails',
               1000,
               'React',
