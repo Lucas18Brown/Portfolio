@@ -9,7 +9,7 @@ h1, p {
 }
 
 #info {
-  text-align: left;
+  text-align: justify;
   font-size: 32px;
   margin-bottom: 100px;
   font-weight: 300;
@@ -20,7 +20,7 @@ h1, p {
   margin-right: 90px;
   font-size: 150px;
   font-weight: 700;
-  text-align: right;
+  text-align: left;
 }
 
 .container {
@@ -74,7 +74,7 @@ h1, p {
 
 .border {
   border-right: 5px solid #F3C623;
-  height: 600px;
+  height: 700px;
   border-radius: 5px;
 }
 
@@ -89,7 +89,9 @@ ul {
   list-style-type: none;
   display: flex;
   justify-content: center;
-  padding: 20px 0 20px 0;
+  padding: 0;
+  height: 50px;
+  align-items: center;
 }
 
 li {
