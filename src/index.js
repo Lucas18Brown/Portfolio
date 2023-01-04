@@ -1,9 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import Footer from './footer';
+import Footer from './components/Footer.js';
 import './index.css';
-import Navbar from './navbar';
-import Welcome from './welcome.js';
+import Navbar from './components/Navbar.js';
+import Welcome from './components/Welcome.js';
+// import { useInView } from 'react-intersection-observer';
 // import { library } from '@fortawesome/fontawesome-svg-core'
 // import { fab } from '@fortawesome/free-brands-svg-icons'
 // import { faGithub, faCoffee } from '@fortawesome/free-solid-svg-icons'
