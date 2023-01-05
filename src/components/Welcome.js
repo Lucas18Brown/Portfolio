@@ -1,4 +1,4 @@
-import { TypeAnimation } from 'react-type-animation';
+// import { TypeAnimation } from 'react-type-animation';
 
 // const observer = new IntersectionObserver((entries) => {
 //   entries.forEach((entry) => {
@@ -14,13 +14,14 @@ function Welcome(props) {
   return (
       <div className='welcome-container'>
         <div className='profile-name'>
-          <p style={{ fontWeight: '300', textAlign: 'right', paddingRight: '10px', fontSize: '15px'}}>Hey! Im,</p>
+          <p style={{ fontWeight: '300', textAlign: 'right', paddingRight: '10px', fontSize: '24px'}}>Hey! Im,</p>
           <h1>Lucas <br></br> Brown</h1>
         </div>
         <div className='div-border'></div>
-        <div style={{textAlign: 'left', fontWeight: '300', paddingLeft: '140px'}}>
-          <p id='info'>A <span style={{ fontWeight: '500', color: '#FFC947'}}> Full Stack Web Developer </span> looking to create and design experiences that simplify peoples' lives.</p>
-          <TypeAnimation
+        <div className="info-container">
+          <h1 id="job">Full Stack <br></br> Web Developer </h1>
+          <p id='info'>Looking to create and design experiences that simplify peoples' lives.</p>
+          {/* <TypeAnimation
             sequence={[
               1000,
               'Rails',
@@ -50,7 +51,7 @@ function Welcome(props) {
             wrapper="TypeAnimation"
             cursor={true}
             style={{ fontSize: '32px', color: '#FFC947', fontWeight: '500'}}
-          />
+          /> */}
         </div>
       </div>
   )

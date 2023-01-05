@@ -1,4 +1,4 @@
-@tailwind base;
+/* @tailwind base; */
 @tailwind components;
 @tailwind utilities;
 
@@ -6,6 +6,8 @@ body {
   background-color: #0A1931;
   font-family: 'Raleway', sans-serif;
   color: #EFEFEF;
+  font-size: 24px;
+  font-weight: 300;
 }
 
 h1, p {
@@ -15,8 +17,37 @@ h1, p {
 #info {
   text-align: left;
   font-size: 32px;
-  margin-bottom: 100px;
+  /* margin-bottom: 100px; */
   font-weight: 300;
+}
+
+#job {
+  font-size: 40px;
+  text-align: left;
+  margin-bottom: 60px;
+  color: #F3C623;
+  font-weight: 500;
+}
+
+#about-info {
+  max-width: 500px;
+}
+
+#skills-info {
+  padding-left: 200px;
+}
+
+.about-container {
+  display: flex;
+  align-items: center;
+}
+
+.info-container {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  font-weight: 300;
+  justify-content: center;
 }
 
 h1 {
@@ -24,10 +55,6 @@ h1 {
   font-size: 140px;
   font-weight: 700;
   text-align: right;
-}
-
-.profile-name {
-  padding-right: 150px;
 }
 
 .container {
@@ -44,6 +71,7 @@ h1 {
   align-items: center;
   height: 88vh;
   grid-template-columns: 1fr 0fr 1fr;
+  margin-bottom: 30px;
 }
 
 .footer {
@@ -83,6 +111,7 @@ h1 {
   height: 700px;
   border-radius: 5px;
   width: 0;
+  margin: 0 120px 0 120px;
 }
 
 .navbar {
@@ -92,7 +121,7 @@ h1 {
   backdrop-filter: blur(2px);
 }
 
-ul {
+#navbar-ul {
   list-style-type: none;
   display: flex;
   justify-content: center;
@@ -101,13 +130,28 @@ ul {
   align-items: center;
 }
 
-li {
+#navbar-ul li {
   /* padding: 0 60px 0 60px; */
   width: 200px;
   text-align: center;
 }
 
-.hidden {
+.skills {
+  text-align: left;
+  font-size: 40px;
+  color: #F3C623;
+  font-weight: 500;
+}
+
+.about {
+  font-size: 64px;
+  color: #F3C623;
+}
+
+#about-info p {
+
+}
+/* .hidden {
   opacity: 0;
   filter: blur(5px);
   transform: translateX(-100%);
@@ -118,4 +162,4 @@ li {
   opacity: 1;
   filter: blur(0);
   transform: translateX(0);
-}
+} */
