@@ -4,14 +4,14 @@ This project was built using React.
 </br>
 This website was built to showcase my projects and skills, also to show a bit more about me.
 
-## Technologies used
+## Technologies Used
 
+* React
 * HTML5
 * CSS3
 * JavaScript (ES6)
 * Git
 * GitHub
-* React
 * Webpack
 
 ## To Run Code Locally
