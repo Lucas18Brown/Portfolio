@@ -60,6 +60,19 @@ h2 {
   margin: 0;
 }
 
+#job {
+  text-align: left;
+  margin-bottom: 60px;
+  color: #F3C623;
+  font-weight: 500;
+}
+
+#info {
+  text-align: left;
+  font-size: 32px;
+  font-weight: 300;
+}
+
 /* Navbar */
 
 .navbar {
@@ -128,19 +141,6 @@ h2 {
   color: #F3C623;
   font-weight: 500;
   margin-bottom: 100px;
-}
-
-#job {
-  text-align: left;
-  margin-bottom: 60px;
-  color: #F3C623;
-  font-weight: 500;
-}
-
-#info {
-  text-align: left;
-  font-size: 32px;
-  font-weight: 300;
 }
 
 /* Projects Page */
