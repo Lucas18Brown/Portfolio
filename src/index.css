@@ -8,8 +8,9 @@ body {
   background-color: #0A1931;
   font-family: 'Raleway', sans-serif;
   color: #EFEFEF;
-  font-size: 24px;
+  font-size: 20px;
   font-weight: 300;
+  line-height: 1.6;
 }
 
 .container {
@@ -113,7 +114,7 @@ h2 {
 }
 
 #about-info {
-  max-width: 450px;
+  max-width: 550px;
 }
 
 #skills-info {
