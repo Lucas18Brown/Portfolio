@@ -18,13 +18,15 @@ function About() {
         <h1 className="skills">Skills</h1>
         <ul>
           <li>Ruby</li>
-          <li>Rails</li>
-          <li>Html</li>
-          <li>CSS</li>
+          <li>Ruby on Rails</li>
+          <li>Html/CSS</li>
+          <li>Heroku</li>
           <li>SCSS</li>
           <li>React</li>
           <li>JavaScript</li>
           <li>Postgresql</li>
+          <li>Github</li>
+          <li>Git</li>
         </ul>
       </div>
     </div>
