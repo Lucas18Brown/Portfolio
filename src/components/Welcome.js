@@ -15,11 +15,11 @@ function Welcome(props) {
       <div className='welcome-container'>
         <div className='profile-name'>
           <p style={{ fontWeight: '300', textAlign: 'right', paddingRight: '10px', fontSize: '24px'}}>Hey! Im,</p>
-          <h1>Lucas <br></br> Brown</h1>
+          <h1 id="name">Lucas <br></br> Brown</h1>
         </div>
         <div className='div-border'></div>
         <div className="info-container">
-          <h1 id="job">Full Stack <br></br> Web Developer </h1>
+          <h2 id="job">Full Stack <br></br> Web Developer </h2>
           <p id='info'>Looking to create and design experiences that simplify peoples' lives.</p>
           {/* <TypeAnimation
             sequence={[

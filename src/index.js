@@ -5,6 +5,7 @@ import './index.css';
 import Navbar from './components/Navbar.js';
 import Welcome from './components/Welcome.js';
 import About from './components/About.js';
+import Project from './components/Project.js';
 // import { useInView } from 'react-intersection-observer';
 // import { library } from '@fortawesome/fontawesome-svg-core'
 // import { fab } from '@fortawesome/free-brands-svg-icons'
@@ -19,6 +20,7 @@ root.render(
     <Navbar/>
     <Welcome/>
     <About/>
+    <Project/>
     <Footer/>
   </div>
 );
