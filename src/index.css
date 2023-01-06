@@ -30,11 +30,11 @@ h1, p {
 }
 
 #about-info {
-  max-width: 500px;
+  max-width: 450px;
 }
 
-#skills-info {
-  padding-left: 200px;
+.profile-name {
+  padding-bottom: 120px;
 }
 
 .about-container {
@@ -111,7 +111,7 @@ h1 {
   height: 700px;
   border-radius: 5px;
   width: 0;
-  margin: 0 120px 0 120px;
+  margin: 0 60px;
 }
 
 .navbar {
@@ -136,21 +136,25 @@ h1 {
   text-align: center;
 }
 
+#skills-info {
+  width: 100%;
+  padding-left: 150px;
+  padding-bottom: 10px;
+}
+
 .skills {
   text-align: left;
   font-size: 40px;
   color: #F3C623;
   font-weight: 500;
+  margin-bottom: 100px;
 }
 
 .about {
   font-size: 64px;
-  color: #F3C623;
+  color: #EFEFEF;
 }
 
-#about-info p {
-
-}
 /* .hidden {
   opacity: 0;
   filter: blur(5px);
