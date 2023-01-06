@@ -5,7 +5,7 @@ function About() {
       <h1 className="about">About</h1>
       <div className='div-border'></div>
       <div id="about-info">
-        <h1 id="job">Full Stack <br></br> Web Developer </h1>
+        <h2 id="job">Full Stack <br></br> Web Developer </h2>
         <p>
           Lorem Ipsum is simply dummy text of the printing and typesetting industry.
           Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
@@ -15,7 +15,7 @@ function About() {
         </p>
       </div>
       <div id="skills-info">
-        <h1 className="skills">Skills</h1>
+        <h2 className="skills">Skills</h2>
         <ul>
           <li>Ruby</li>
           <li>Ruby on Rails</li>
