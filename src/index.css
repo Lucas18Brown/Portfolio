@@ -71,15 +71,31 @@ h2 {
 #navbar-ul {
   list-style-type: none;
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   padding: 0;
-  height: 50px;
+  height: 70px;
   align-items: center;
+  margin-bottom: 0;
+}
+
+.nav-items {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 #navbar-ul li {
   width: 200px;
   text-align: center;
+}
+
+.my-info {
+  display: flex;
+  align-items: center;
+}
+
+.lucas-icon {
+  width: 50px;
 }
 
 /* About Page */
