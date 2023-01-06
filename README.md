@@ -14,6 +14,10 @@ This website was built to showcase my projects and skills, also to show a bit mo
 * GitHub
 * Webpack
 
+## HomePage Visuals
+
+<img width="1498" alt="home page" src="https://user-images.githubusercontent.com/109978500/211078598-4b6d0bbf-3078-4967-bcfc-445e87e89af1.png">
+
 ## To Run Code Locally
 
 ### `npm install`
