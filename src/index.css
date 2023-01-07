@@ -1,5 +1,5 @@
 /* @tailwind base; */
-@tailwind components;
+/* @tailwind components; */
 @tailwind utilities;
 
 /* All Pages */
@@ -15,6 +15,7 @@ body {
 
 .container {
   margin: auto 140px;
+
 }
 
 h1, h2, p {
@@ -158,6 +159,7 @@ h2 {
 
 #projects-title {
   font-size: 64px;
+  margin-top: 0;
 }
 
 #projects-info{
@@ -178,6 +180,19 @@ h2 {
 .project-button:hover {
   transform: scale(1.1);
   background-color: #185ADB;
+}
+
+/* Project1 */
+
+.project1 {
+  display: flex;
+  align-items: center;
+  height: 100vh;
+}
+
+.pxlsounds-img1 {
+  max-width: 750px;
+  max-height: 500px;
 }
 
 /* Footer */
