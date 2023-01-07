@@ -14,7 +14,7 @@ function Welcome(props) {
   return (
       <div className='welcome-container'>
         <div className='profile-name'>
-          <p style={{ fontWeight: '300', textAlign: 'right', paddingRight: '10px', fontSize: '24px'}}>Hey! Im,</p>
+          <p className="text-right">Hey! Im,</p>
           <h1 id="name">Lucas <br></br> Brown</h1>
         </div>
         <div className='div-border'></div>
