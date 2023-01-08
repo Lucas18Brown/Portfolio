@@ -1,8 +1,8 @@
-import Carousel, { CarouselItem } from './Carousel.js'
-import Landing from '../assets/Landing.png'
-import Home from '../assets/Home.png'
-import Edit from '../assets/Edit.png'
-import New from '../assets/New.png'
+import Carousel, { CarouselItem } from '../Carousel.js'
+import Landing from '../../assets/Landing.png'
+import Home from '../../assets/Home.png'
+import Edit from '../../assets/Edit.png'
+import New from '../../assets/New.png'
 
 function Project1() {
   return (

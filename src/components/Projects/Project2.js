@@ -1,7 +1,7 @@
-import Carousel ,{ CarouselItem } from "./Carousel.js";
-import HLanding from "../assets/Hitman landing.png"
-import Index from "../assets/index.png"
-import Show from "../assets/show.png"
+import Carousel ,{ CarouselItem } from "../Carousel.js";
+import HLanding from "../../assets/Hitman landing.png"
+import Index from "../../assets/index.png"
+import Show from "../../assets/show.png"
 
 function Project2() {
   return (
@@ -13,7 +13,7 @@ function Project2() {
       </Carousel>
       <div className='div-border'></div>
       <div className='project-info'>
-        <h1 id='project2-title'>HitWho?</h1>
+        <h1 id='projects-title'>HitWho?</h1>
         <p>A clone of Airbnb, but instead of renting rooms, we rent... Hitmen</p>
       </div>
     </div>
