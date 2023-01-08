@@ -1,4 +1,7 @@
 import React, { useState } from "react";
+import { useSwipeable } from "react-swipeable"
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faChevronLeft, faChevronRight } from "@fortawesome/free-solid-svg-icons";
 
 export function CarouselItem({children, width}) {
   return (
@@ -21,8 +24,13 @@ function Carousel ({children}) {
     setActiveIndex(newIndex);
   }
 
+  const handlers = useSwipeable({
+    onSwipedLeft: () => updateIndex(activeIndex + 1),
+    onSwipedRight: () => updateIndex(activeIndex - 1)
+  });
+
   return (
-    <div className="carousel">
+    <div className="carousel" {...handlers}>
       <div className="inner" style={{ transform: `translateX(-${activeIndex * 100}%)` }}>
         {React.Children.map(children, (child, index) => {
           return React.cloneElement(child, {width: "100%" })
@@ -30,10 +38,10 @@ function Carousel ({children}) {
       </div>
       <div className="indicators">
         <button onClick={() => {updateIndex(activeIndex -1)}}>
-          prev
+          <FontAwesomeIcon icon={faChevronLeft} className="chevron fa-beat"/>
         </button>
         <button onClick={() => {updateIndex(activeIndex +1)}}>
-          Next
+          <FontAwesomeIcon icon={faChevronRight} className="chevron fa-beat"/>
         </button>
       </div>
     </div>
