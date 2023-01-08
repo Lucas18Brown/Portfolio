@@ -7,12 +7,6 @@ import Welcome from './components/Welcome.js';
 import About from './components/About.js';
 import Project from './components/Project.js';
 import Project1 from './components/Project1.js';
-// import { useInView } from 'react-intersection-observer';
-// import { library } from '@fortawesome/fontawesome-svg-core'
-// import { fab } from '@fortawesome/free-brands-svg-icons'
-// import { faGithub, faCoffee } from '@fortawesome/free-solid-svg-icons'
-
-// library.add(fab, faGithub, faCoffee)
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
