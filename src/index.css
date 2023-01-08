@@ -182,7 +182,7 @@ h2 {
   background-color: #185ADB;
 }
 
-/* Project1 */
+/* Project1,2,3 */
 
 .project1 {
   display: flex;
@@ -190,11 +190,11 @@ h2 {
   height: 100vh;
 }
 
-.pxlsounds-info {
+.project-info {
   width: 450px;
 }
 
-.pxlsounds-img {
+.project-img {
   /* border: 1px solid #EFEFEF; */
   box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.2);
   border-radius: 10px;
@@ -254,6 +254,7 @@ h2 {
 .carousel {
   overflow: hidden;
   width: 1000px;
+  height: 465px;
   position: relative;
 }
 
@@ -275,6 +276,7 @@ h2 {
   top: 50%;
   width: 750px;
 }
+
 .indicators > button {
   margin: 5px;
   border: none;

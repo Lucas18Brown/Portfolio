@@ -1,5 +1,5 @@
 
-function Project() {
+function Projects() {
   return (
     <div className="project">
       <div className="title-info">
@@ -32,4 +32,4 @@ function Project() {
   )
 };
 
-export default Project;
+export default Projects;

@@ -5,8 +5,9 @@ import './index.css';
 import Navbar from './components/Navbar.js';
 import Welcome from './components/Welcome.js';
 import About from './components/About.js';
-import Project from './components/Project.js';
+import Projects from './components/Projects.js';
 import Project1 from './components/Project1.js';
+import Project2 from './components/Project2.js';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
@@ -15,8 +16,9 @@ root.render(
     <Navbar/>
     <Welcome/>
     <About/>
-    <Project/>
+    <Projects/>
     <Project1/>
+    <Project2/>
     <Footer/>
   </div>
 );
