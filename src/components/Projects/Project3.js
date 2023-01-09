@@ -7,8 +7,14 @@ function Project3() {
   return (
     <div className="project1">
       <div className='project-info'>
-        <h1>Tic-Tac-Toe</h1>
+        <h1 className="m-0">Tic-Tac-Toe</h1>
+        <p className='text-sm mb-10 mt-0 text-[#FFC947]'>Desktop</p>
         <p>Classic game of Tic-Tac-Toe, created with react.</p>
+        <div className='language'>
+          <a href='https://reactjs.org/' target="_blank" rel='noopener noreferrer'>
+            <p className='mr-2 text-[#FFC947] text-sm hover:text-[#185ADB]'>React</p>
+          </a>
+        </div>
       </div>
       <div className='div-border'></div>
       <Carousel>
