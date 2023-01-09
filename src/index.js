@@ -6,6 +6,7 @@ import Welcome from './components/Welcome.js';
 import About from './components/About.js';
 import Projects from './components/Projects/Projects.js';
 import Footer from './components/Footer.js';
+import Contacts from './components/Contacts.js';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
@@ -15,6 +16,7 @@ root.render(
     <Welcome/>
     <About/>
     <Projects/>
+    <Contacts/>
     <Footer/>
   </div>
 );
