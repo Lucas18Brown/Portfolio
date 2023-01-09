@@ -146,7 +146,12 @@ h2 {
 
 /* Projects Page */
 
-.project {
+.projects {
+  display: flex;
+  flex-direction: column;
+}
+
+.project-showcase {
   display: flex;
   align-items: center;
   margin-bottom: 30px;
