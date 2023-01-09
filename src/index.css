@@ -209,8 +209,27 @@ a {
   max-width: 750px;
 }
 
+
 .language {
   display: flex;
+}
+
+/* Contacts Page */
+
+.contacts {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  height: 80vh;
+}
+
+.contact-info {
+  border-top: 2px solid #F3C623;
+  border-radius: 1px;
+  padding: 20px;
+  width: 400px;
 }
 
 /* Footer */
@@ -218,7 +237,7 @@ a {
 .footer {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
   height: 100px;
   padding: 0px 50px;
   color: #EFEFEF;

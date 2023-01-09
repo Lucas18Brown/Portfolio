@@ -13,7 +13,7 @@ function Navbar() {
         <div className="nav-items">
           <li className='cursor-pointer hover:text-[#FFC947]' onClick={() => { window.scrollTo({top: 850, behavior: 'smooth'})}}>About</li>
           <li className='cursor-pointer hover:text-[#FFC947]' onClick={() => { window.scrollTo({top: 1750, behavior: 'smooth'})}}>Projects</li>
-          <li className='cursor-pointer hover:text-[#FFC947]'>Contacts</li>
+          <li className='cursor-pointer hover:text-[#FFC947]' onClick={() => { window.scrollTo({top: 6000, behavior: 'smooth'})}}>Contacts</li>
         </div>
       </ul>
     </div>
