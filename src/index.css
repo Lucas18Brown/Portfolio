@@ -34,6 +34,10 @@ h2 {
   text-align: right;
 }
 
+a {
+  text-decoration: none;
+}
+
 /* Welcome Page */
 
 .welcome-container {
@@ -164,7 +168,7 @@ h2 {
 
 #projects-title {
   font-size: 64px;
-  margin-top: 0;
+  margin: 0;
 }
 
 #projects-info{
@@ -200,10 +204,13 @@ h2 {
 }
 
 .project-img {
-  /* border: 1px solid #EFEFEF; */
   box-shadow: inset 1px 1px 8px rgba(0, 0, 0, 0.5);
   border-radius: 10px;
   max-width: 750px;
+}
+
+.language {
+  display: flex;
 }
 
 /* Footer */
@@ -258,9 +265,10 @@ h2 {
 
 .carousel {
   overflow: hidden;
-  width: 1000px;
+  width: 975px;
   height: 465px;
   position: relative;
+  border-radius: 10px;
 }
 
 .inner {
@@ -270,8 +278,7 @@ h2 {
 
 .carousel-item {
   display: inline-flex;
-  align-items: center;
-  height: 500px;
+  height: 470px;
 }
 
 .indicators {
