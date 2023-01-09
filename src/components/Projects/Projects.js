@@ -19,17 +19,17 @@ function Projects() {
           <div className="pxl-sounds">
             <h2 className="mb-4">PxlSounds</h2>
             <p className='my-0.5'>A white-noise generator that helps people block distractions around them in order to focus on their tasks.</p>
-            <button className="project-button">Go</button>
+            <button className="project-button" onClick={() => { window.scrollTo({ top: 2650, behavior: 'smooth'})}}>Go</button>
           </div>
           <div className="hitwho">
             <h2 className="mb-4 mt-24">HitWho?</h2>
             <p className='my-0.5'>A clone of Airbnb, but instead of renting, rooms we rent... Hitmen</p>
-            <button className="project-button">Go</button>
+            <button className="project-button" onClick={() => { window.scrollTo({ top: 3500, behavior: 'smooth'})}}>Go</button>
           </div>
           <div className="tic">
             <h2 className="mb-4 mt-24">Tic-Tac-Toe</h2>
             <p className='my-0.5'>Classic game of Tic-Tac-Toe, created with react.</p>
-            <button className="project-button">Go</button>
+            <button className="project-button" onClick={() => { window.scrollTo({ top: 4400, behavior: 'smooth'})}}>Go</button>
           </div>
         </div>
       </div>
