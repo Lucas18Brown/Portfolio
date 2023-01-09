@@ -1,6 +1,8 @@
 import LucasIcon from '../assets/Lucasicon.png'
 
+
 function Navbar() {
+
   return (
     <div className="navbar">
       <ul id="navbar-ul"  style={{ fontWeight: '300', fontSize: '15px'}}>
