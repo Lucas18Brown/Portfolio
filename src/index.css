@@ -1,5 +1,5 @@
-/* @tailwind base; */
-/* @tailwind components; */
+/* @tailwind base;
+@tailwind components; */
 @tailwind utilities;
 
 /* All Pages */
@@ -15,11 +15,10 @@ body {
 
 .container {
   margin: auto 140px;
-
 }
 
 h1, h2, p {
-  text-shadow: 1px 1px 8px rgba(71, 70, 70, 0.207);
+  text-shadow: 1px 1px 8px rgba(71, 70, 70, 0.200);
 }
 
 h2 {
