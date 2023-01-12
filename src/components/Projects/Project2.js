@@ -5,7 +5,7 @@ import Show from "../../assets/show.png"
 
 function Project2() {
   return (
-    <div className="project1">
+    <div className="project2">
       <Carousel>
         <CarouselItem><img src={HLanding} alt='landing page' className='project-img'></img></CarouselItem>
         <CarouselItem><img src={Index} alt='index page' className='project-img'></img></CarouselItem>

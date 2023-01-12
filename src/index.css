@@ -1,8 +1,12 @@
-/* @tailwind base;
-@tailwind components; */
+@tailwind base;
+@tailwind components;
 @tailwind utilities;
 
 /* All Pages */
+
+/* * {
+  outline: 3px solid limegreen;
+} */
 
 body {
   background-color: #0A1931;
@@ -13,7 +17,7 @@ body {
   line-height: 1.6;
 }
 
-.container {
+.main-container {
   margin: auto 140px;
 }
 
@@ -28,53 +32,12 @@ h2 {
 
 #name {
   margin: 0;
-  font-size: 140px;
   font-weight: 700;
   text-align: right;
 }
 
 a {
   text-decoration: none;
-}
-
-/* Welcome Page */
-
-.welcome-container {
-  display: grid;
-  justify-content: center;
-  align-items: center;
-  height: 88vh;
-  grid-template-columns: 1fr 0fr 1fr;
-  margin-bottom: 30px;
-}
-
-.info-container {
-  display: flex;
-  flex-direction: column;
-  text-align: left;
-  font-weight: 300;
-  justify-content: center;
-}
-
-.profile-name {
-  padding-bottom: 120px;
-}
-
-.welcome {
-  margin: 0;
-}
-
-#job {
-  text-align: left;
-  margin-bottom: 60px;
-  color: #F3C623;
-  font-weight: 500;
-}
-
-#info {
-  text-align: left;
-  font-size: 32px;
-  font-weight: 300;
 }
 
 /* Navbar */
@@ -103,7 +66,7 @@ a {
 }
 
 #navbar-ul li {
-  width: 200px;
+  /* width: ; */
   text-align: center;
 }
 
@@ -113,16 +76,54 @@ a {
 }
 
 .lucas-icon {
-  width: 50px;
+  max-width: 50px;
+}
+
+/* Welcome Page */
+
+.welcome-container {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  grid-template-columns: 1fr 0fr 1fr;
+  margin-bottom: 200px;
+}
+
+.info-container {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  font-weight: 300;
+  justify-content: center;
+}
+
+.welcome {
+  margin: 0;
+}
+
+#job {
+  text-align: left;
+  margin-bottom: 60px;
+  color: #F3C623;
+  font-weight: 500;
+}
+
+#info {
+  text-align: left;
+  font-weight: 300;
+}
+
+#hey {
+  text-align: right;
 }
 
 /* About Page */
 
 .about-container {
-  display: flex;
+  display: grid;
+  grid-template-columns: 1fr 0fr 3fr 2fr;
   align-items: center;
-  height: 100vh;
-  margin-bottom: 30px;
+  margin-bottom: 200px;
 }
 
 .about {
@@ -155,10 +156,11 @@ a {
 }
 
 .project-showcase {
-  display: flex;
+  display: grid;
+  grid-template-columns: 2fr 0fr 3fr;
   align-items: center;
   margin-bottom: 30px;
-  height: 100vh;
+  /* height: 100vh; */
 }
 
 .title-info {
@@ -168,10 +170,6 @@ a {
 #projects-title {
   font-size: 64px;
   margin: 0;
-}
-
-#projects-info{
-  width: 480px;
 }
 
 .project-button {
@@ -193,19 +191,22 @@ a {
 /* Project1,2,3 */
 
 .project1 {
-  display: flex;
+  display: grid;
+  grid-template-columns: 2fr 0fr 4fr;
   align-items: center;
-  height: 100vh;
+  /* height: 100vh; */
 }
 
-.project-info {
-  width: 450px;
+.project2 {
+  display: grid;
+  grid-template-columns: 4fr 0fr 2fr;
+  align-items: center;
+  /* height: 100vh; */
 }
 
 .project-img {
   box-shadow: inset 1px 1px 8px rgba(0, 0, 0, 0.5);
   border-radius: 10px;
-  max-width: 750px;
 }
 
 
@@ -221,7 +222,7 @@ a {
   justify-content: center;
   text-align: center;
   align-items: center;
-  height: 80vh;
+  /* height: 80vh; */
 }
 
 .contact-info {
@@ -272,20 +273,16 @@ a {
 /* Used in multiple pages */
 
 .div-border {
-  border-right: 2px solid #F3C623;
+  border: 1px solid #F3C623;
   height: 700px;
   border-radius: 5px;
-  width: 0;
-  margin: 0 60px;
+  margin-inline: 60px;
 }
 
 /* Carousel */
 
 .carousel {
   overflow: hidden;
-  width: 975px;
-  height: 465px;
-  position: relative;
   border-radius: 10px;
 }
 
@@ -296,15 +293,11 @@ a {
 
 .carousel-item {
   display: inline-flex;
-  height: 470px;
 }
 
 .indicators {
   display: flex;
-  justify-content: space-between;
-  position: absolute;
-  top: 50%;
-  width: 750px;
+  justify-content: center;
 }
 
 .indicators > button {
@@ -321,4 +314,34 @@ a {
 
 .chevron:hover {
   transform: scale(1.1);
+}
+
+@media (max-width: 768px) {
+
+  .main-container {
+    margin: auto 20px;
+  }
+
+  .nav-items {
+    display: none;
+  }
+
+  .welcome-container,
+  .about-container {
+    grid-template-columns: 1fr;
+  }
+
+  .div-border {
+    height: 0px;
+    width: 100%;
+    margin-inline: 0px;
+    justify-content: center;
+  }
+
+  #job,
+  #info,
+  #name,
+  #hey {
+    text-align: center;
+  }
 }
