@@ -12,16 +12,16 @@ function Project2() {
         <CarouselItem><img src={Show} alt='new page' className='project-img'></img></CarouselItem>
       </Carousel>
       <div className='div-border'></div>
-      <div className='project-info'>
-        <h1 id='projects-title'>HitWho?</h1>
-        <p className='text-sm mb-10 mt-0 text-[#FFC947]'>Desktop</p>
-        <p>A clone of Airbnb, but instead of renting rooms, we rent... Hitmen</p>
+      <div>
+        <h1 className="text-2xl">HitWho?</h1>
+        <p className='text-xsm mb-10 mt-0 text-[#FFC947]'>Desktop</p>
+        <p className="text-sm">A clone of Airbnb, but instead of renting rooms, we rent... Hitmen</p>
         <div className='language'>
           <a href='https://rubyonrails.org/' target="_blank" rel='noopener noreferrer'>
-            <p className='mr-5 text-[#FFC947] text-sm hover:text-[#185ADB]'>Ruby on Rails</p>
+            <p className='px-2 bg-[#FFC947] rounded my-2 mr-2 text-[#0A1931] hover:bg-[#185ADB] text-xsm'>Ruby on Rails</p>
           </a>
           <a href='https://stimulus.hotwired.dev/' target="_blank" rel='noopener noreferrer'>
-            <p className='mr-5 text-[#FFC947] text-sm hover:text-[#185ADB]'>Stimulus</p>
+            <p className='px-2 bg-[#FFC947] rounded my-2 mr-2 text-[#0A1931] hover:bg-[#185ADB] text-xsm'>Stimulus</p>
           </a>
         </div>
       </div>

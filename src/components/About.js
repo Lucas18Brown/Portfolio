@@ -2,11 +2,11 @@
 function About() {
   return (
     <div className="about-container">
-      <h1 className="about">About</h1>
+      <h1 className="about text-2xl font-light">About</h1>
       <div className='div-border'></div>
       <div id="about-info">
         <h2 id="job">Full Stack <br></br> Web Developer </h2>
-        <p>
+        <p className="md:text-left text-justify md:text-sm text-xsm">
           I recently graduated from Edge Hill University with a 2:1 in Business & Management.
           Throughout my final year of university and after I graduated,
           I realised that I had little interest in the employment options that my degree had prepared me for.
@@ -17,20 +17,20 @@ function About() {
           I am also, a huge football fan, especially of Everton Football Club, where you may (sometimes) see me supporting them.
         </p>
       </div>
-      <div id="skills-info">
+      <div className="pt-10">
         <h2 className="skills">Skills</h2>
-        <ul>
-          <li>Ruby</li>
-          <li>Ruby on Rails</li>
-          <li>Html/CSS</li>
-          <li>Heroku</li>
-          <li>SCSS</li>
-          <li>React</li>
-          <li>JavaScript</li>
-          <li>Postgresql</li>
-          <li>Github</li>
-          <li>Git</li>
-        </ul>
+        <div className="skills-info">
+          <p className="p-2 bg-[#EFEFEF] rounded m-2 grow text-[#0A1931]">Ruby</p>
+          <p className="p-2 bg-[#EFEFEF] rounded m-2 grow text-[#0A1931]">Ruby on Rails</p>
+          <p className="p-2 bg-[#EFEFEF] rounded m-2 grow text-[#0A1931]">Html/CSS</p>
+          <p className="p-2 bg-[#EFEFEF] rounded m-2 grow text-[#0A1931]">Heroku</p>
+          <p className="p-2 bg-[#EFEFEF] rounded m-2 grow text-[#0A1931]">SCSS</p>
+          <p className="p-2 bg-[#EFEFEF] rounded m-2 grow text-[#0A1931]">React</p>
+          <p className="p-2 bg-[#EFEFEF] rounded m-2 grow text-[#0A1931]">Postgresql</p>
+          <p className="p-2 bg-[#EFEFEF] rounded m-2 grow text-[#0A1931]">Github</p>
+          <p className="p-2 bg-[#EFEFEF] rounded m-2 grow text-[#0A1931]">Git</p>
+          <p className="p-2 bg-[#EFEFEF] rounded m-2 grow text-[#0A1931]">JavaScript</p>
+        </div>
       </div>
     </div>
   )
