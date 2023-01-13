@@ -1,8 +1,12 @@
-/* @tailwind base; */
-/* @tailwind components; */
+@tailwind base;
+@tailwind components;
 @tailwind utilities;
 
 /* All Pages */
+
+/* * {
+  outline: 3px solid limegreen;
+} */
 
 body {
   background-color: #0A1931;
@@ -13,13 +17,12 @@ body {
   line-height: 1.6;
 }
 
-.container {
+.main-container {
   margin: auto 140px;
-
 }
 
 h1, h2, p {
-  text-shadow: 1px 1px 8px rgba(71, 70, 70, 0.207);
+  text-shadow: 1px 1px 8px rgba(71, 70, 70, 0.200);
 }
 
 h2 {
@@ -29,53 +32,12 @@ h2 {
 
 #name {
   margin: 0;
-  font-size: 140px;
   font-weight: 700;
   text-align: right;
 }
 
 a {
   text-decoration: none;
-}
-
-/* Welcome Page */
-
-.welcome-container {
-  display: grid;
-  justify-content: center;
-  align-items: center;
-  height: 88vh;
-  grid-template-columns: 1fr 0fr 1fr;
-  margin-bottom: 30px;
-}
-
-.info-container {
-  display: flex;
-  flex-direction: column;
-  text-align: left;
-  font-weight: 300;
-  justify-content: center;
-}
-
-.profile-name {
-  padding-bottom: 120px;
-}
-
-.welcome {
-  margin: 0;
-}
-
-#job {
-  text-align: left;
-  margin-bottom: 60px;
-  color: #F3C623;
-  font-weight: 500;
-}
-
-#info {
-  text-align: left;
-  font-size: 32px;
-  font-weight: 300;
 }
 
 /* Navbar */
@@ -85,6 +47,7 @@ a {
   top: 0;
   background-color: #0a1931bc;
   backdrop-filter: blur(2px);
+  z-index: 1;
 }
 
 #navbar-ul {
@@ -104,8 +67,12 @@ a {
 }
 
 #navbar-ul li {
-  width: 200px;
+  padding-inline: min(30vw, 50px);
   text-align: center;
+}
+
+.bar {
+  display: none;
 }
 
 .my-info {
@@ -114,38 +81,62 @@ a {
 }
 
 .lucas-icon {
-  width: 50px;
+  max-width: 50px;
+}
+
+/* Welcome Page */
+
+.welcome-container {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  grid-template-columns: 1fr 0fr 1fr;
+  margin-bottom: 200px;
+}
+
+.info-container {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  font-weight: 300;
+  justify-content: center;
+}
+
+.welcome {
+  margin: 0;
+}
+
+#job {
+  text-align: left;
+  margin-bottom: 60px;
+  color: #F3C623;
+  font-weight: 700;
+}
+
+#hey {
+  text-align: right;
 }
 
 /* About Page */
 
 .about-container {
-  display: flex;
+  display: grid;
+  grid-template-columns: 1fr 0fr 4fr 2fr;
   align-items: center;
-  height: 100vh;
-  margin-bottom: 30px;
+  margin-bottom: 200px;
 }
 
-.about {
-  font-size: 64px;
-  color: #EFEFEF;
-}
-
-#about-info {
-  max-width: 550px;
-}
-
-#skills-info {
-  padding-left: 150px;
-  padding-bottom: 150px;
-  text-align: start;
+.skills-info {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 30px;
+  text-align: center;
 }
 
 .skills {
-  text-align: left;
   color: #F3C623;
-  font-weight: 500;
-  margin-bottom: 100px;
+  font-weight: 700;
+  text-align: center;
 }
 
 /* Projects Page */
@@ -156,23 +147,10 @@ a {
 }
 
 .project-showcase {
-  display: flex;
+  display: grid;
+  grid-template-columns: 2fr 0fr 3fr;
   align-items: center;
-  margin-bottom: 30px;
-  height: 100vh;
-}
-
-.title-info {
-  text-align: left;
-}
-
-#projects-title {
-  font-size: 64px;
-  margin: 0;
-}
-
-#projects-info{
-  width: 480px;
+  margin-bottom: 200px;
 }
 
 .project-button {
@@ -180,10 +158,9 @@ a {
   color: #0A1931;
   border: none;
   border-radius: 5px;
-  width: 40px;
-  height: 25px;
   box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.382);
   cursor: pointer;
+  padding: 0px 10px 0 10px;
 }
 
 .project-button:hover {
@@ -194,24 +171,29 @@ a {
 /* Project1,2,3 */
 
 .project1 {
-  display: flex;
+  display: grid;
+  grid-template-columns: 2fr 0fr 4fr;
   align-items: center;
-  height: 100vh;
+  margin-bottom: 200px;
 }
 
-.project-info {
-  width: 450px;
+.project2 {
+  display: grid;
+  grid-template-columns: 4fr 0fr 2fr;
+  align-items: center;
+  margin-bottom: 200px;
 }
 
 .project-img {
   box-shadow: inset 1px 1px 8px rgba(0, 0, 0, 0.5);
   border-radius: 10px;
-  max-width: 750px;
 }
 
 
 .language {
   display: flex;
+  flex-wrap: wrap;
+  margin-top: 10px;
 }
 
 /* Contacts Page */
@@ -222,7 +204,7 @@ a {
   justify-content: center;
   text-align: center;
   align-items: center;
-  height: 80vh;
+  margin: 100px 0 300px 0;
 }
 
 .contact-info {
@@ -273,20 +255,16 @@ a {
 /* Used in multiple pages */
 
 .div-border {
-  border-right: 2px solid #F3C623;
+  border: 1px solid #F3C623;
   height: 700px;
   border-radius: 5px;
-  width: 0;
-  margin: 0 60px;
+  margin-inline: 60px;
 }
 
 /* Carousel */
 
 .carousel {
   overflow: hidden;
-  width: 975px;
-  height: 465px;
-  position: relative;
   border-radius: 10px;
 }
 
@@ -297,15 +275,11 @@ a {
 
 .carousel-item {
   display: inline-flex;
-  height: 470px;
 }
 
 .indicators {
   display: flex;
-  justify-content: space-between;
-  position: absolute;
-  top: 50%;
-  width: 750px;
+  justify-content: center;
 }
 
 .indicators > button {
@@ -322,4 +296,50 @@ a {
 
 .chevron:hover {
   transform: scale(1.1);
+}
+
+@media (max-width: 1045px) {
+
+  .main-container {
+    margin: auto 40px;
+  }
+
+  .nav-items {
+    display: none;
+  }
+
+  .bar {
+    display:inline;
+  }
+
+  .welcome-container,
+  .about-container,
+  .project-showcase,
+  .project1,
+  .project2 {
+    grid-template-columns: 1fr;
+    margin: 60px 0 200px 0;
+  }
+
+  .contacts {
+    margin-bottom: 40px;
+  }
+
+  .div-border {
+    height: 0px;
+    width: 100%;
+    margin: 40px 0 60px 0;
+    justify-content: center;
+  }
+
+  #job,
+  #name,
+  #hey,
+  .about {
+    text-align: center;
+  }
+
+  .skills-info {
+    margin: 0;
+  }
 }

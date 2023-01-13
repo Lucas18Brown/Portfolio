@@ -11,7 +11,7 @@ import Contacts from './components/Contacts.js';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
 root.render(
-  <div className='container'>
+  <div className='main-container'>
     <Navbar/>
     <Welcome/>
     <About/>
