@@ -38,10 +38,10 @@ function Carousel ({children}) {
       </div>
       <div className="indicators">
         <button onClick={() => {updateIndex(activeIndex -1)}}>
-          <FontAwesomeIcon icon={faChevronLeft} className="chevron fa-beat"/>
+          <FontAwesomeIcon icon={faChevronLeft} className="chevron fa-beat sm:block hidden"/>
         </button>
         <button onClick={() => {updateIndex(activeIndex +1)}}>
-          <FontAwesomeIcon icon={faChevronRight} className="chevron fa-beat"/>
+          <FontAwesomeIcon icon={faChevronRight} className="chevron fa-beat sm:block hidden"/>
         </button>
       </div>
     </div>
