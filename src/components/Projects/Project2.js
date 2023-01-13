@@ -13,7 +13,7 @@ function Project2() {
       </Carousel>
       <div className='div-border'></div>
       <div>
-        <h1 className="text-2xl">HitWho?</h1>
+        <h1 className="text-2xl font-medium">HitWho?</h1>
         <p className='text-xsm mb-10 mt-0 text-[#FFC947]'>Desktop</p>
         <p className="text-sm">A clone of Airbnb, but instead of renting rooms, we rent... Hitmen</p>
         <div className='language'>

@@ -7,7 +7,7 @@ function Project3() {
   return (
     <div className="project1">
       <div>
-        <h1 className="text-[60px]">Tic-Tac-Toe</h1>
+        <h1 className="text-[60px] font-medium">Tic-Tac-Toe</h1>
         <p className='text-xsm mb-10 mt-0 text-[#FFC947]'>Desktop</p>
         <p className="text-sm">Classic game of Tic-Tac-Toe, created with react.</p>
         <div className='language'>

@@ -5,7 +5,7 @@ import { faLinkedin, faGithub } from '@fortawesome/free-brands-svg-icons'
 function Contacts() {
   return (
     <div className="contacts">
-      <h1 className="m-0">Contact Me</h1>
+      <h1 className="m-0 sm:text-2xl text-xl font-medium">Contact Me</h1>
       <div className='contact-info'>
       <p> My Email: lucas20brown@hotmail.co.uk</p>
       <br></br>
