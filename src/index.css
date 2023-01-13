@@ -2,6 +2,9 @@
 @tailwind components;
 @tailwind utilities;
 
+
+
+
 /* ALL PAGES */
 
 body {
@@ -35,6 +38,9 @@ h2 {
 a {
   text-decoration: none;
 }
+
+
+
 
 /* NAVBAR */
 
@@ -80,6 +86,9 @@ a {
   max-width: 50px;
 }
 
+
+
+
 /* WELCOME PAGE */
 
 .welcome-container {
@@ -113,6 +122,9 @@ a {
   text-align: right;
 }
 
+
+
+
 /* ABOUT PAGE */
 
 .about-container {
@@ -139,6 +151,9 @@ a {
   font-weight: 500;
   text-align: center;
 }
+
+
+
 
 /* PROJECTS PAGE */
 
@@ -169,6 +184,9 @@ a {
   background-color: #185ADB;
 }
 
+
+
+
 /* PROJECT 1 | 2 | 3 */
 
 .project1 {
@@ -197,6 +215,9 @@ a {
   margin-top: 10px;
 }
 
+
+
+
 /* CONTACTS PAGE */
 
 .contacts {
@@ -214,6 +235,9 @@ a {
   padding: 20px;
   width: 400px;
 }
+
+
+
 
 /* FOOTER */
 
@@ -253,6 +277,9 @@ a {
   cursor: pointer;
 }
 
+
+
+
 /* Used in multiple pages */
 
 .div-border {
@@ -261,6 +288,9 @@ a {
   border-radius: 5px;
   margin-inline: 60px;
 }
+
+
+
 
 /* CAROUSEL */
 
@@ -348,6 +378,9 @@ a {
   }
 }
 
+
+
+
 /* MEDIA QUERY FOR MEDIUM SCREENS */
 
 @media (max-width: 767px) {
@@ -400,6 +433,9 @@ a {
     margin: 0;
   }
 }
+
+
+
 
 /* MEDIA QUERY FOR SMALL SCREENS */
 
