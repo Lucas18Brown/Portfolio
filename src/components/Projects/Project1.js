@@ -6,7 +6,7 @@ import New from '../../assets/New.png'
 
 function Project1() {
   return (
-    <div className="project1">
+    <div className="project1" name="pxlsounds">
       <div>
         <h1 className='text-2xl font-medium'>PxlSounds</h1>
         <p className='text-xsm mb-10 mt-0 text-[#FFC947]'>Desktop</p>

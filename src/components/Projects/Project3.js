@@ -5,7 +5,7 @@ import Win from "../../assets/Ticwin.png"
 
 function Project3() {
   return (
-    <div className="project1">
+    <div className="project1" name="tic-tac-toe">
       <div>
         <h1 className="text-[60px] font-medium">Tic-Tac-Toe</h1>
         <p className='text-xsm mb-10 mt-0 text-[#FFC947]'>Desktop</p>

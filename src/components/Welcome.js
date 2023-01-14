@@ -1,5 +1,6 @@
 
-function Welcome(props) {
+
+function Welcome() {
   return (
       <div className='welcome-container'>
         <div className='profile-name'>
