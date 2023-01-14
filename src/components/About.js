@@ -10,8 +10,8 @@ function About() {
           <p className="md:text-left text-justify xl:text-sm text-xsm">
             I recently graduated from Edge Hill University with a 2:1 in Business & Management.
             Throughout my final year of university and after I graduated,
-            I realised that I had little interest in the emp tloyment options that my degree had prepared me for.
-            After plenty of research, I made the decision toake a chance on a 10-week course at LeWagon London in order to pursue a career in web development.
+            I realised that I had little interest in the employment options that my degree had prepared me for.
+            After plenty of research, I made the decision to take a chance on a 10-week course at LeWagon London in order to pursue a career in web development.
             It was a fantastic decision that confirmed my desire to pursue this as a career.
             I now have a background with Ruby and Ruby on Rails, although some of my most recent projects have been developed using React.
             As a developer, my goal is to create and design experiences that simplify people's lives.
