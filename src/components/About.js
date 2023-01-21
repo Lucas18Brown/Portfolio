@@ -20,7 +20,7 @@ function About() {
   return (
     <div className="about-container">
       <motion.div initial="hidden" ref={ref} animate={control}  variants={fadeInLeft} >
-        <h1 className="about lg:text-2xl md:text-xl text-2xl font-light">About</h1>
+        <h1 className="about lg:text-2xl md:text-xl text-2xl font-light md:text-right">About</h1>
       </motion.div>
       <div className='div-border'></div>
         <div className="skills-about">
