@@ -19,7 +19,7 @@ function Welcome() {
 
   return (
       <div className='welcome-container'>
-        <motion.div initial="hidden" ref={ref} animate={control} variants={fadeInLeft} viewport={{once: true}}>
+        <motion.div initial="hidden" ref={ref} animate={control} variants={fadeInLeft}>
           <div className='profile-name'>
             <p id="hey">Hey! Im,</p>
             <h1 id="name" className="xl:text-4xl lg:text-3xl md:text-[85px] text-2xl">Lucas <br></br> Brown</h1>

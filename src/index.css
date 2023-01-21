@@ -412,7 +412,7 @@ html {
   .project1,
   .project2 {
     grid-template-columns: 1fr;
-    margin: 100px 0 200px 0;
+    margin: 50px 0 200px 0;
     height: auto;
   }
 
