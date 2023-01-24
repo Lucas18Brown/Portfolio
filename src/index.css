@@ -67,9 +67,9 @@ html {
 }
 
 .nav-items {
-  display: flex;
+  display: flex !important;
   align-items: center;
-  justify-content: center;
+  justify-content: center
 }
 
 #navbar-ul li {
@@ -345,7 +345,20 @@ html {
   }
 
   .nav-items {
-    display: none;
+    padding-top: 200px;
+    flex-direction: column;
+  }
+
+  .n-item {
+    margin-bottom: 20px;
+    text-align: right;
+  }
+
+  .bar {
+    display:inline;
+    position: absolute;
+    top: 25%;
+    right: 0;
   }
 
   .project1,
@@ -393,12 +406,15 @@ html {
     margin: auto 40px;
   }
 
-  .nav-items {
-    display: none;
+  .n-item {
+    margin-bottom: 20px;
   }
 
   .bar {
     display:inline;
+    position: absolute;
+    top: 25%;
+    right: 0;
   }
 
   .skills-about {
@@ -448,4 +464,12 @@ html {
   .skills-about {
     grid-template-columns: 1fr;
   }
+}
+
+.hidden {
+  display: none !important;
+}
+
+.block {
+  display: block;
 }

@@ -10,6 +10,29 @@ import fadeInTop from './Animation/FadeInTop';
 
 function Navbar() {
 
+  const [navItems, setClassName] = useState('nav-items');
+
+  useEffect(() => {
+    const updateNavItems = () => {
+      if (window.innerWidth > 1024) {
+        setClassName('nav-items');
+      } else {
+        setClassName('hidden');
+      }
+    };
+
+    updateNavItems();
+    window.addEventListener('resize', updateNavItems);
+
+    return () => {
+      window.removeEventListener('resize', updateNavItems);
+    };
+  }, []);
+
+  const toggleClass = () => {
+    setClassName(prevClassName => (prevClassName === 'hidden' ? 'nav-items' : 'hidden'));
+  }
+
   const [animationPlayed, setAnimationPlayed] = useState(false);
   const control = useAnimationControls();
   const [ref, inView] = useInView()
@@ -41,16 +64,16 @@ function Navbar() {
             <li className={faded ? "transition-opacity duration-300 ease-in opacity-100 hover:cursor-pointer font-bold" : "transition-opacity duration-300 ease-out opacity-0 font-bold"}>Lucas Brown</li>
           </div>
           <div className='dropdown'>
-          <FontAwesomeIcon icon={faBars} className="bar text-base"/>
-            <div className="nav-items">
+            <FontAwesomeIcon icon={faBars} className="bar text-base" onClick={ toggleClass }/>
+            <div className={navItems} >
               <Link activeClass='active' offset={-80} to='about-container'>
-                <li className='cursor-pointer hover:text-[#FFC947]'>About</li>
+                <li className='n-item cursor-pointer hover:text-[#FFC947]'>About</li>
               </Link>
               <Link activeClass='active' offset={-80} to='projects'>
-                <li className='cursor-pointer hover:text-[#FFC947]' onClick={() => { window.scrollTo({behavior: 'smooth'})}}>Projects</li>
+                <li className='n-item cursor-pointer hover:text-[#FFC947]' onClick={() => { window.scrollTo({behavior: 'smooth'})}}>Projects</li>
               </Link>
               <Link activeClass='active' to='contacts'>
-              <li className='cursor-pointer hover:text-[#FFC947]' onClick={() => { window.scrollTo({behavior: 'smooth'})}}>Contacts</li>
+              <li className='n-item cursor-pointer hover:text-[#FFC947]' onClick={() => { window.scrollTo({behavior: 'smooth'})}}>Contacts</li>
               </Link>
             </div>
           </div>

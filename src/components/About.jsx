@@ -48,6 +48,7 @@ function About() {
                 <p className="p-2 bg-[#EFEFEF] rounded m-2 grow xl:text-sm text-xsm text-[#0A1931]">Html/CSS</p>
                 <p className="p-2 bg-[#EFEFEF] rounded m-2 grow xl:text-sm text-xsm text-[#0A1931]">Heroku</p>
                 <p className="p-2 bg-[#EFEFEF] rounded m-2 grow xl:text-sm text-xsm text-[#0A1931]">SCSS</p>
+                <p className="p-2 bg-[#EFEFEF] rounded m-2 grow xl:text-sm text-xsm text-[#0A1931]">Tailwind</p>
                 <p className="p-2 bg-[#EFEFEF] rounded m-2 grow xl:text-sm text-xsm text-[#0A1931]">React</p>
                 <p className="p-2 bg-[#EFEFEF] rounded m-2 grow xl:text-sm text-xsm text-[#0A1931]">Postgresql</p>
                 <p className="p-2 bg-[#EFEFEF] rounded m-2 grow xl:text-sm text-xsm text-[#0A1931]">Github</p>

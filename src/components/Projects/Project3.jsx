@@ -1,4 +1,4 @@
-import Carousel ,{ CarouselItem } from "../Carousel.js";
+import Carousel ,{ CarouselItem } from "../Carousel.jsx";
 import Land from "../../assets/Ticlanding.png"
 import Move from "../../assets/Ticmove.png"
 import Win from "../../assets/Ticwin.png"

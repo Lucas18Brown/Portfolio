@@ -1,4 +1,4 @@
-import Carousel ,{ CarouselItem } from "../Carousel.js";
+import Carousel ,{ CarouselItem } from "../Carousel.jsx";
 import HLanding from "../../assets/Hitman landing.png"
 import Index from "../../assets/index.png"
 import Show from "../../assets/show.png"

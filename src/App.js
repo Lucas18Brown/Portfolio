@@ -1,9 +1,9 @@
-import Navbar from './components/Navbar.js';
-import Welcome from './components/Welcome.js';
-import About from './components/About.js';
-import Projects from './components/Projects/Projects.js';
-import Footer from './components/Footer.js';
-import Contacts from './components/Contacts.js';
+import Navbar from './components/Navbar.jsx';
+import Welcome from './components/Welcome.jsx';
+import About from './components/About.jsx';
+import Projects from './components/Projects/Projects.jsx';
+import Footer from './components/Footer.jsx';
+import Contacts from './components/Contacts.jsx';
 
 const App = () => {
   return (

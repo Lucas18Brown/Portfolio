@@ -1,4 +1,4 @@
-import Carousel, { CarouselItem } from '../Carousel.js'
+import Carousel, { CarouselItem } from '../Carousel.jsx'
 import Landing from '../../assets/Landing.png'
 import Home from '../../assets/Home.png'
 import Edit from '../../assets/Edit.png'
