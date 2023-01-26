@@ -7,8 +7,6 @@ function Contacts() {
     <div className="contacts">
       <h1 className="m-0 sm:text-2xl text-xl font-medium">Contact Me</h1>
       <div className='contact-info'>
-      <p> My Email: lucas20brown@hotmail.co.uk</p>
-      <br></br>
       <p>Please message me with questions, opportunities or to simply say hi!</p>
       </div>
       <div className="footer-links">
