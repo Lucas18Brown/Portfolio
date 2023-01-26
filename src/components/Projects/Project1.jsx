@@ -8,6 +8,8 @@ import { useAnimationControls, motion } from "framer-motion"
 import { useInView } from "react-intersection-observer";
 import fadeInLeft from "../Animation/FadeInLeft"
 import fadeInRight from "../Animation/FadeInRight"
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faGithub } from '@fortawesome/free-brands-svg-icons'
 
 function Project1() {
 
@@ -27,7 +29,12 @@ function Project1() {
       <motion.div initial="hidden" ref={ref} animate={control} variants={fadeInLeft}>
         <div>
           <h1 className='text-2xl font-medium'>PxlSounds</h1>
-          <p className='text-xsm mb-10 mt-0 text-[#FFC947]'>Desktop</p>
+          <div className='flex'>
+            <p className='text-xsm mb-10 mt-0 text-[#FFC947]'>Desktop</p>
+            <a href='https://github.com/CodeLemons/PxlSounds' target="_blank" rel="noopener noreferrer">
+              <FontAwesomeIcon icon={faGithub} className="text-[#FFC947] hover:text-[#185ADB] ml-3 pb-0.5"/>
+            </a>
+          </div>
           <p className="md:text-sm text-xsm">A white-noise generator that helps people block distractions around them in order to focus on their tasks.</p>
           <br></br>
           <p className='md:text-sm text-xsm'>In PxlSounds you can choose different worlds that have specific themes around them, combine different sounds from those worlds in order to create your perfect environment for work.</p>
