@@ -306,6 +306,7 @@ html {
 .inner {
   white-space: nowrap;
   transition: transform 0.3s;
+  height: auto;
 }
 
 .carousel-item {
@@ -464,6 +465,11 @@ html {
   .skills-about {
     grid-template-columns: 1fr;
   }
+
+  .indicators > button {
+    display: none;
+  }
+
 }
 
 .hidden {
