@@ -7,6 +7,8 @@ import { useAnimationControls, motion } from "framer-motion"
 import { useInView } from "react-intersection-observer";
 import fadeInLeft from "../Animation/FadeInLeft"
 import fadeInRight from "../Animation/FadeInRight"
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faGithub } from '@fortawesome/free-brands-svg-icons'
 
 function Project2() {
 
@@ -34,7 +36,12 @@ function Project2() {
       <motion.div initial="hidden" ref={ref} animate={control} variants={fadeInRight}>
         <div>
           <h1 className="text-2xl font-medium">HitWho?</h1>
-          <p className='text-xsm mb-10 mt-0 text-[#FFC947]'>Desktop</p>
+          <div className='flex'>
+            <p className='text-xsm mb-10 mt-0 text-[#FFC947]'>Desktop</p>
+            <a href='https://github.com/Lucas18Brown/HitWho' target="_blank" rel="noopener noreferrer">
+              <FontAwesomeIcon icon={faGithub} className="text-[#FFC947] hover:text-[#185ADB] ml-3 pb-0.5"/>
+            </a>
+          </div>
           <p className="text-sm">A clone of Airbnb, but instead of renting rooms, we rent... Hitmen</p>
           <div className='language'>
             <a href='https://rubyonrails.org/' target="_blank" rel='noopener noreferrer'>
