@@ -46,21 +46,21 @@ function Projects() {
               </Link>
             </div>
             <div className="hitwho">
-              <h2 className="mb-4 mt-24 text-base">HitWho?</h2>
+              <h2 className="mb-4 mt-10 text-base">HitWho?</h2>
               <p className='my-2 lg:text-sm md:text-xsm sm:text-sm text-xsm'>A clone of Airbnb, but instead of renting, rooms we rent... Hitmen</p>
               <Link activeClass='active' offset={-80} to='hitwho'>
                 <button className="project-button">Go</button>
               </Link>
             </div>
             <div className="tic">
-              <h2 className="mb-4 mt-24 text-base">Tic-Tac-Toe</h2>
+              <h2 className="mb-4 mt-10 text-base">Tic-Tac-Toe</h2>
               <p className='my-2 lg:text-sm md:text-xsm sm:text-sm text-xsm'>Classic game of Tic-Tac-Toe, created with react.</p>
               <Link activeClass='active' offset={-80} to='tic-tac-toe'>
                 <button className="project-button" onClick={() => { window.scrollTo({ top: 4400, behavior: 'smooth'})}}>Go</button>
               </Link>
             </div>
             <div className="Travel">
-              <h2 className="mb-4 mt-24 text-base">Our Travel Journal</h2>
+              <h2 className="mb-4 mt-10 text-base">Our Travel Journal</h2>
               <p className='my-2 lg:text-sm md:text-xsm sm:text-sm text-xsm'>A Travel Journal, to log all your amazing trips.</p>
               <Link activeClass='active' offset={-80} to='our-travel-journal'>
                 <button className="project-button" onClick={() => { window.scrollTo({ top: 4400, behavior: 'smooth'})}}>Go</button>
