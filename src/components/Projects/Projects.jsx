@@ -1,6 +1,7 @@
 import Project1 from "./Project1";
 import Project2 from "./Project2";
 import Project3 from "./Project3";
+import Project4 from "./Project4";
 import { Link } from 'react-scroll'
 import React, { useState, useEffect } from "react";
 import { useAnimationControls, motion } from "framer-motion"
@@ -58,12 +59,20 @@ function Projects() {
                 <button className="project-button" onClick={() => { window.scrollTo({ top: 4400, behavior: 'smooth'})}}>Go</button>
               </Link>
             </div>
+            <div className="Travel">
+              <h2 className="mb-4 mt-24 text-base">Our Travel Journal</h2>
+              <p className='my-2 lg:text-sm md:text-xsm sm:text-sm text-xsm'>A Travel Journal, to log all your amazing trips.</p>
+              <Link activeClass='active' offset={-80} to='our-travel-journal'>
+                <button className="project-button" onClick={() => { window.scrollTo({ top: 4400, behavior: 'smooth'})}}>Go</button>
+              </Link>
+            </div>
           </div>
         </motion.div>
       </div>
       <Project1/>
       <Project2/>
       <Project3/>
+      <Project4/>
     </div>
   )
 };
